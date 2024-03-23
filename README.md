@@ -11,7 +11,6 @@ instalar as dependencias do ambiente de execução.
 - **[postgresql](https://www.postgresql.org/download/)**
 - **[composer](https://getcomposer.org/download/)**
 - **[php](https://www.php.net/downloads.php)**
-- **[postgresql](https://www.postgresql.org/download/)**
 
 
 após a clonagem do git rodar o projeto utilizando os comandos 
