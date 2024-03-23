@@ -11,7 +11,6 @@ instalar as dependencias do ambiente de execução.
 - **[postgresql](https://www.postgresql.org/download/)**
 - **[composer](https://getcomposer.org/download/)**
 - **[php](https://www.php.net/downloads.php)**
-- **[postgresql](https://www.postgresql.org/download/)**
 
 
 após a clonagem do git rodar o projeto utilizando os comandos 
@@ -20,6 +19,17 @@ após a clonagem do git rodar o projeto utilizando os comandos
 - php artisan serve = para que o serviço seja iniciado.
 
 para um "ease of use" deixei um arquivo .bat "start.bat" junto ao projeto que vai executar os 3 comandos.
+ajustar o .env de acordo com a instalação de sua database postgresql por padrao esta:
+
+DB_DATABASE=teste-backend
+
+
+DB_USERNAME=postgres
+
+
+DB_PASSWORD=Encore123
+
+
 
 ## funcionamento do login/register usando o auth2 "google api"
 
