@@ -44,5 +44,7 @@ http://localhost:8000/login ao acessar faça login ou selecione a opção de reg
 ![alt text](image-5.png)
 ## aqui fica o controle dos pipelines e views
 ![alt text](image-6.png)
-
-
+##
+![alt text](image-7.png)
+##
+![alt text](image-8.png)
