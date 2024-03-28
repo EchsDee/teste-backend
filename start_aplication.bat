@@ -1,0 +1,3 @@
+@echo off
+echo começando o serviço do laravel...
+php artisan serve

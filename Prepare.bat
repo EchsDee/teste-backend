@@ -5,5 +5,5 @@ composer install
 echo Rodando migrações do database...
 php artisan migrate
 
-echo começando o serviço do laravel...
-php artisan serve
+echo gerando chave de aplicativo
+php artisan key:generate
