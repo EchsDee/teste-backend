@@ -7,3 +7,6 @@ php artisan migrate
 
 echo gerando chave de aplicativo
 php artisan key:generate
+
+echo gerando chave do jwt
+php artisan jwt:secret

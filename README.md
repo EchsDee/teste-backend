@@ -20,8 +20,9 @@ após a clonagem do git e configuração do .env rodar o projeto utilizando os c
 - composer install - para que o composer instale as dependencias
 - php artisan migrate - para que o artisan migre as informações da base postgresql
 - php artisan key:generate - para que seja gerada a chave unica do da aplicação.
+- php artisan jwt:secret - para que seja gerado o segredo do jwt.
 
-para um "ease of use" deixei um arquivo .bat "prepare.bat" junto ao projeto que vai executar os 3 comandos.
+para um "ease of use" deixei um arquivo .bat "prepare.bat" junto ao projeto que vai executar os 4 comandos.
 
 DB_DATABASE=teste-backend
 
