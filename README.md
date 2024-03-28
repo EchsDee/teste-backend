@@ -35,6 +35,12 @@ DB_PASSWORD=Encore123
 
 utilizando o cadastro/ login via google depende da hash secret da google api e como o git esta publico e o hash seria um dado sensivel e esta censurada no .env. seria necessario a geração de uma nova hash pelo [painel de controle](https://console.cloud.google.com) dos apis da google e informado no .env do projeto, mas caso necessario só pedir que fornecerei o que utilizei no projeto.
 
+
+- GOOGLE_CLIENT_ID="id client do painel do google"
+- GOOGLE_CLIENT_SECRET="codigo de segredo do painel do google"
+- GOOGLE_REDIRECT=http://localhost:8000/google/callback
+
+
 ## rodando o Projeto
 
 após as configurações do .env
